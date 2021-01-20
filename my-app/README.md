@@ -3,15 +3,13 @@
 Estudando os conceitos básicos utilizando a [documentação oficial](https://pt-br.reactjs.org/docs/getting-started.html).
 
 #### -----------------------------------------------------------------------------------------------
-### 00 - Hello ... World!
+### 00 - Hello World
 
-<u>index.js</u>
+index.js
 
 ```
-  ReactDOM.render(
-    <React.StrictMode>
-      <h1>Hello ... World!</h1>
-    </React.StrictMode>,
+  ReactDOM.render(    
+    <h1>Hello ... World!</h1>
     document.getElementById('root')
   );
 
@@ -19,8 +17,9 @@ Estudando os conceitos básicos utilizando a [documentação oficial](https://pt
 
 > O menor exemplo em React conforme indica o site oficial.
 
-<hr>
-
+***
+#### -----------------------------------------------------------------------------------------------
+***
 ## Available Scripts
 
 In the project directory, you can run:
