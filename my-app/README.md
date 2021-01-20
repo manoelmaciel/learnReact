@@ -1,6 +1,6 @@
 # Principais conceitos
 
-Estudando os conceitos básicos utilizando a [documentação oficial](https://pt-br.reactjs.org/docs/getting-started.html).
+Estudando os conceitos básicos utilizando a [documentação oficial](https://pt-br.reactjs.org/docs/hello-world.html).
 
 #### -----------------------------------------------------------------------------------------------
 ### 00 - Hello World
