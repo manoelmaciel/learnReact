@@ -3,6 +3,7 @@
 # dependencies
 tic-tac-toe/node_modules
 my-app/node_modules
+fundamentos/node_modules
 /.pnp
 .pnp.js
 
