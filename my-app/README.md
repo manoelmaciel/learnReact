@@ -1,6 +1,25 @@
-# Getting Started with Create React App
+# Principais conceitos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Estudando os conceitos básicos utilizando a [documentação oficial](https://pt-br.reactjs.org/docs/getting-started.html).
+
+#### -----------------------------------------------------------------------------------------------
+### 00 - Hello ... World!
+
+<u>index.js</u>
+
+```
+  ReactDOM.render(
+    <React.StrictMode>
+      <h1>Hello ... World!</h1>
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
+
+```
+
+> O menor exemplo em React conforme indica o site oficial.
+
+<hr>
 
 ## Available Scripts
 
