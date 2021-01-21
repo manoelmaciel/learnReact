@@ -7,8 +7,8 @@ function formatName(user) {
 }
 
 const user = {
-    firstName: 'Manoel',
-    lastName: 'Maciel' 
+    firstName: 'Josh',
+    lastName: 'Perez' 
   };
 
 const element = (
