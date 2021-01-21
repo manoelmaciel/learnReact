@@ -42,6 +42,32 @@ index.js
 > Você pode inserir qualquer expressão JavaScript válida dentro das chaves em JSX.
 ***
 
+### 02 - Renderizando elementos
+
+> Os [elementos](https://pt-br.reactjs.org/docs/rendering-elements.html) são os menosres blocos de construção de aplicativos React.
+
+#### ---------------------------------------------------------------------------------------------------------
+
+index.js
+
+```
+function tick() {  
+  const element = (
+    <div>
+      <h1>Couting time ... </h1>
+      <h2>It is {new Date().toLocaleTimeString()}!</h2>
+    </div>
+  )
+  ReactDOM.render(
+    element,
+    document.getElementById('root')
+  )
+}
+setInterval(tick(), 1000)
+```
+> O React somente atualiza o necessário.
+***
+
 ## Available Scripts
 
 In the project directory, you can run:
