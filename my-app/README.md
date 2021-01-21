@@ -1,10 +1,14 @@
 # Principais conceitos
 
-Estudando os conceitos básicos utilizando a [documentação oficial](https://pt-br.reactjs.org/docs/hello-world.html).
+>Estudando os conceitos básicos do *__React__* utilizando a [documentação oficial](https://pt-br.reactjs.org/docs/hello-world.html).
 
-#### -----------------------------------------------------------------------------------------------
+#### --------------------------------------------------------------------------------------------------------------
+#### --------------------------------------------------------------------------------------------------------------
 ### 00 - Hello World
 
+> O famingerado [Hello World](https://pt-br.reactjs.org/docs/hello-world.html) para espantar qualquer urucubaca. 
+
+#### ---------------------------------------------------------------------------------------------------------
 index.js
 
 ```
@@ -18,8 +22,26 @@ index.js
 > O menor exemplo em React conforme indica o site oficial.
 
 ***
-#### -----------------------------------------------------------------------------------------------
+### 01 - Introduzindo JSX
+
+> O [JSX](https://pt-br.reactjs.org/docs/introducing-jsx.html) é uma extensão de sintaxe para JavaScript. 
+
+#### ---------------------------------------------------------------------------------------------------------
+
+index.js
+
+```
+  const name = 'Josh Perez';
+  const element = <h1>Hello, {name}</h1>;
+
+  ReactDOM.render(
+    element,
+    document.getElementById('root')
+  );
+```
+> Você pode inserir qualquer expressão JavaScript válida dentro das chaves em JSX.
 ***
+
 ## Available Scripts
 
 In the project directory, you can run:
