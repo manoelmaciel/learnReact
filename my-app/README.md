@@ -65,7 +65,7 @@ function tick() {
 }
 setInterval(tick(), 1000)
 ```
-> O React somente atualiza o necessário.
+> O React somente atualiza o estritamente necessário.
 ***
 
 ## Available Scripts
