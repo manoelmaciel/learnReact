@@ -44,9 +44,9 @@ index.js
 
 ### 02 - Renderizando elementos
 
-> Os [elementos](https://pt-br.reactjs.org/docs/rendering-elements.html) são os menosres blocos de construção de aplicativos React.
+> Os [elementos](https://pt-br.reactjs.org/docs/rendering-elements.html) são os menores blocos de construção de aplicativos React.
 
-#### ---------------------------------------------------------------------------------------------------------
+#### --------------------------------------------------------------------------------------------------------------
 
 index.js
 
@@ -58,14 +58,45 @@ function tick() {
       <h2>It is {new Date().toLocaleTimeString()}!</h2>
     </div>
   )
+
   ReactDOM.render(
     element,
     document.getElementById('root')
   )
 }
+
 setInterval(tick(), 1000)
 ```
 > O React somente atualiza o estritamente necessário.
+***
+
+### 03 - Componentes e Props
+
+> Quando o React vê um elemento representando um [componente](https://pt-br.reactjs.org/docs/components-and-props.html) definido pelo usuário, 
+  ele passa atributos JSX e componentes filhos para esse componente como um único 
+  objeto. Nós chamamos esse objeto de “[props](https://pt-br.reactjs.org/docs/components-and-props.html)”.
+
+#### ------------------------------------------------------------------------------------------------------------------------
+
+index.js
+
+```
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+
+const element = <Welcome name="Sara" />;
+
+ReactDOM.render(
+  element,
+  document.getElementById('root')
+);
+```
+##### Vamos recapitular o que acontece:
+1. Nós chamamos ReactDOM.render() com o elemento __```<Welcome name="Sara" />```__.
+2. React chama o componente Welcome com __```{name: "Sara"}```__ como props.
+3. Nosso componente Welcome retorna um elemento __```<h1>Hello, Sara</h1>```__ como resultado.
+4. React DOM atualiza eficientemente o DOM para corresponder __```<h1>Hello, Sara</h1>```__.
 ***
 
 ## Available Scripts
