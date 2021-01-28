@@ -96,7 +96,7 @@ ReactDOM.render(
 1. Nós chamamos ReactDOM.render() com o elemento __```<Welcome name="Sara" />```__.
 2. React chama o componente Welcome com __```{name: "Sara"}```__ como props.
 3. Nosso componente Welcome retorna um elemento __```<h1>Hello, Sara</h1>```__ como resultado.
-4. React DOM atualiza eficientemente o DOM para corresponder __```<h1>Hello, Sara</h1>```__.
+4. ReactDOM atualiza eficientemente o DOM para corresponder __```<h1>Hello, Sara</h1>```__.
 ***
 
 ## Available Scripts
