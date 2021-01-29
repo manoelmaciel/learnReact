@@ -1,8 +1,9 @@
-# Aprendendo ... React!
+# Learning ... React!
 
 #### -----------------------------------------------------------------------------------------------------------
+> React - A JavaScript library for building user interfaces
 
-## conceitos
+## concepts
 ###### -----------------------------------------------------------------------
 
 ## createReactApp
@@ -10,7 +11,7 @@
 
 [create-react-app](https://create-react-app.dev/)
 
-## fundamentos
+## foundations
 ###### -----------------------------------------------------------------------
 
 ## tic-tac-toe
