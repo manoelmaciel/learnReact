@@ -4,6 +4,9 @@
 tic-tac-toe/node_modules
 my-app/node_modules
 fundamentos/node_modules
+createReactApp/my-app/node_modules
+conceitos/my-app/node_modules
+
 /.pnp
 .pnp.js
 
