@@ -1,0 +1,73 @@
+29/01/2021 - 00:42 
+
+manoel@worknote:~/Workspaces/react/learnReact/createReactApp/my-app$ npm run start
+
+Compiled successfully!
+
+You can now view my-app in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.3:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+^C
+manoel@worknote:~/Workspaces/react/learnReact/createReactApp/my-app$ npm run build
+
+> my-app@0.1.0 build /home/manoel/Workspaces/react/learnReact/createReactApp/my-app
+> react-scripts build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  41.2 KB  build/static/js/2.7599c84a.chunk.js
+  1.39 KB  build/static/js/3.63fb59fc.chunk.js
+  1.17 KB  build/static/js/runtime-main.ab85eab3.js
+  591 B    build/static/js/main.6976eabf.chunk.js
+  531 B    build/static/css/main.8c8b27cf.chunk.css
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
+manoel@worknote:~/Workspaces/react/learnReact/createReactApp/my-app$ serve -s build
+
+Comando 'serve' não encontrado, você quis dizer:
+
+  comando 'server' do deb golang-golang-x-tools (1:0.0~git20191118.07fc4c7+ds-1)
+
+Experimente: sudo apt install <deb name>
+
+manoel@worknote:~/Workspaces/react/learnReact/createReactApp/my-app$ npm install -g serve
+/home/manoel/.nvm/versions/node/v14.15.4/bin/serve -> /home/manoel/.nvm/versions/node/v14.15.4/lib/node_modules/serve/bin/serve.js
++ serve@11.3.2
+added 78 packages from 39 contributors in 5.654s
+manoel@worknote:~/Workspaces/react/learnReact/createReactApp/my-app$ ls
+build  node_modules  package.json  package-lock.json  public  README.md  src
+manoel@worknote:~/Workspaces/react/learnReact/createReactApp/my-app$ serve -s build
+
+   ┌─────────────────────────────────────────────────┐
+   │                                                 │
+   │   Serving!                                      │
+   │                                                 │
+   │   - Local:            http://localhost:5000     │
+   │   - On Your Network:  http://192.168.1.3:5000   │
+   │                                                 │
+   │   Copied local address to clipboard!            │
+   │                                                 │
+   └─────────────────────────────────────────────────┘
+
+
+
