@@ -1,0 +1,44 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;      
+}
+
+body, header, nav, main, aside, footer {
+  display: flex;
+  margin: 3px;
+  flex: 1 1 100vw;
+  background-color: #7a7a7a;
+  color: #efefef;
+}
+
+body {
+  background-color: #000;
+}
+
+.description {
+  background-color: #0FF;
+  color: #000;
+}
+
+header {
+
+} 
+
+nav {
+
+} 
+
+main {
+
+} 
+
+aside {
+
+} 
+
+footer {
+
+}
+
+

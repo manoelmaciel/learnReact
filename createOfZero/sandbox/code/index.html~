@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Layout</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <header>
+    <p class="description">HEADER - Cabeçalho</p>
+    </header>
+    <nav>NAV - Navegação
+      <p></p>
+    </nav>
+    <main>
+      <p class="description">MAIN - Principal</p>
+      <h1>Layout</h1>  
+      <ol>
+        <li><h2>BODY</h2></li>
+      <h3>Tag semânticas</h3>
+        <ul>
+          <li>Tornam o código mais claro para programadores, browsers e buscadores</li>
+          <li>O conteúdo do site é usado como palavras-chave pelos buscadores, influenciando no ranking das buscas</li>
+        </ul>
+      </ol>
+    </main>
+    <aside>
+      <p class="description">ASIDE - Relacionado</p>
+    </aside>
+    <footer>
+      <p class="description">FOOTER - Rodapé</p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

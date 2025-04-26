@@ -1,0 +1,41 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;      
+}
+
+body, header, nav, main, aside, footer {
+  display: flex;
+  margin: 3px;
+  flex: 1 1 100vw;
+  background-color: #a1a1a1;
+  color: #efefef;
+}
+
+body {
+  background-color: #000;
+}
+
+
+header {
+
+} 
+
+nav {
+
+} 
+
+main {
+
+} 
+
+aside {
+
+} 
+
+footer {
+  align-items: center;
+  justify-content: center;
+}
+
+

@@ -1,0 +1,10 @@
+sex 25 abr 2025 17:24:42 
+
+  Crie um aplicativo React do Zero 
+
+    Etapa 1: instalar uma ferramenta do construção
+    
+      Vite
+      
+      $ npm create vite@latest my-app -- --template react
+  
